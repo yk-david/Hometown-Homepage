@@ -9,10 +9,129 @@ DARK BLUE: #1D3557
 */
 
 body {
-    margin: 0;
-    text-align: center;
+  margin: 0;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
 }
 
 img {
-    width: 100px;
+  width: 100px;
+}
+
+
+/* HERO SECTION */
+.hero {
+  height: 350px;
+  background-image: url('images/lyon.jpg');
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-heading {
+  width: 225px;
+  height: 42px;
+  background: #1d3557;
+  font-size: 32px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.hero-subheading {
+  width: 412px;
+  height: 52px;
+  background: #457b9d;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* ACTIVITIES SECTION */
+.activities {
+  height: 400px;
+  background: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #1d3557;
+}
+
+.activities-heading {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.column-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.column {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.activity-img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+
+
+/* GUIDE SECTION */
+.guide {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: linear-gradient(#, #ff0000) */
+}
+
+.guide-container {
+  width: 500px;
+  height: 320px; 
+  background: #a8dadc;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+  box-shadow: 0 7px #1d3557;
+}
+
+.right {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  color: #1d3557;
+}
+
+.guide-img {
+  width: 220px;
+  border-radius: 10px;
+  /* height: auto; */
+}
+
+.guide-heading {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.guide-text {
+  font-size: 16px;
+  font-style: italic;
+}
+
+.guide-name {
+  font-size: 16px;
+  font-weight: bold;
 }
